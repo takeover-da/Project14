@@ -21,8 +21,7 @@ public class Quiz7 {
 			int num1 = iterator.next();
 			int num2 = iterator.next();
 			int num3 = iterator.next();
-			int num4 = iterator.next();
-			
+			int num4 = iterator.next(); //set에 더이상 꺼낼 요소가 없어서 에러남.
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
